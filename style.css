@@ -1,0 +1,94 @@
+/* Add your styles here */
+body{
+    background-image: linear-gradient(to bottom right, rgb(50, 50, 156), pink, rgb(242, 227, 227));
+    margin:0;
+    border: 0;
+    box-sizing: border-box;
+    line-height: 1.35;
+    
+}
+
+header{
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px 0 90px;
+
+}
+
+.header_image{
+    width: 50%;
+    padding-left: 80px
+}
+
+.header_info{
+    font-size: 21px;
+    font-family: 'Tenor Sans', 'Helvetica', sans-serif;
+    color:rgb(36, 36, 39)
+
+}
+
+.header_image img{
+    width: 60%;
+    border: 2px solid rgb(66, 66, 70);
+    border-radius: 10px
+}
+
+p{
+    max-width: 700px
+}
+
+span{
+    font-size: 30px;
+}
+
+#companies, #contact{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+}
+
+#contact li, #companies li{
+    list-style-type: none;
+}
+
+h2{
+    font-family: 'Noto Serif', Garamond, serif;
+    padding-left: 30px
+}
+
+#contact li{
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#contact a{
+    text-decoration: none;
+    color:rgb(8, 8, 24)
+}
+
+#contact li:hover{
+    border-bottom: 2px rgb(66, 66, 70) solid;
+}
+
+footer{
+    padding: 10px 70px;
+    background-color: rgb(244, 235, 239);
+}
+
+small{
+    font-weight: bold;
+    color:rgb(66, 66, 70);
+    font-family:'Courier New', Courier, monospace;
+    padding: 0 450px
+}
+
+.degrees{
+    list-style-type: square;
+    font-family: 'Tenor Sans', 'Helvetica', sans-serif;
+    margin-bottom: 40px;
+
+}
